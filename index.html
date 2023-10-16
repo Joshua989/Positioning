@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Positioning in CSS refers to the technique of precisely placing and aligning elements within a web page. It allows web developers to control the layout of elements by specifying how they should appear in relation to the document or other elements on the page. -->
+  <!-- Purpose of Positioning in CSS:-->
+    <!-- The primary purpose of positioning in CSS is to create visually appealing and well-organized web layouts. It provides control over the placement of elements, enabling developers to design responsive and interactive user interfaces. -->
+
+<!--how to use it-->
+<!--Static Positioning:
+Static positioning is the default positioning of HTML elements. An element with position: static; is positioned according to the normal flow of the document.-->
+<div class="static-box">
+  static box
+</div><!--div will be displayed in its normal position according to the document flow.-->
+
+
+<!--2. Relative Positioning:
+Relative positioning allows you to position an element relative to its normal position.-->
+<div class="relative-box">
+  relative box
+</div>
+<!--Absolute Positioning:
+Absolute positioning allows you to position an element relative to its nearest positioned ancestor, if any; otherwise, it positions it relative to the initial containing block.-->
+<div class="parent-box">parent box
+<div class="absolute-box">absolute box</div>
+</div>
+<!--4. Fixed Positioning:
+Fixed positioning positions an element relative to the viewport (browser window), which means it stays fixed even when the user scrolls the page.-->
+  <div class="fixed-box">Fixed Box</div>
+  <p>Scroll down to see the fixed box.</p>
+<!--2. z-index Property:
+The z-index property specifies the stacking order of positioned elements. Elements with a higher z-index value are displayed in front of elements with a lower z-index value. If two elements have the same z-index, they will be displayed in the order they appear in the HTML document (later elements are stacked on top of earlier ones).-->
+<div class="z-index-box">
+  <div class="box-1">
+    box 1
+  </div>
+  <div class="box-2">
+    box 2
+  </div>
+</div>
+</body>
+</html>
